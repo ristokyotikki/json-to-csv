@@ -1,0 +1,13 @@
+{
+  "name": "json_to_csv",
+  "version": "1.0.0",
+  "description": "Creates csv file(s) from a JSON-file",
+  "main": "json_to_csv.js",
+  "author": "Risto Veijonen",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "yargs": "^13.3.0"
+  }
+}
