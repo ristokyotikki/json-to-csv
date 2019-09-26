@@ -6,6 +6,9 @@
   "author": "Risto Veijonen",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "convert": "./json_to_csv.js"
+  },
   "dependencies": {
     "fs": "^0.0.1-security",
     "yargs": "^13.3.0"
