@@ -6,7 +6,7 @@
 
 ## Execute program
 * ```Bash
-    node csv_to_json.js --file={filename}
+    node json_to_csv.js --file={filename}
   ```
 
 ## JSON format is expected as follows

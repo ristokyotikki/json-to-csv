@@ -17,16 +17,16 @@ if (args['file']) {
 
     console.log(`creating ${Object.keys(json).length} csv file(s) from firebase_dump.json`);
     Object.keys(json).forEach(dump => {
-      const keys = Object.keys(json[dump][Object.keys(json['booking_log'])[0]]);
+      const keys = Object.keys(json[dump][Object.keys(json[dump])[0]]);
       let csv = '';
 
       for (let i = 0; i < keys.length; i++) {
         csv += getColumnValue([keys[i]], i, keys.length);
       }
 
-      Object.keys(json['booking_log']).map(log => {
+      Object.keys(json[dump]).map(log => {
         for (let i = 0; i < keys.length; i++) {
-          csv += getColumnValue(json['booking_log'][log][keys[i]], i, keys.length);
+          csv += getColumnValue(json[dump][log][keys[i]], i, keys.length);
         }
       });
 
