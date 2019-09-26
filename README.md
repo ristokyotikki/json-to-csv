@@ -2,17 +2,17 @@
 
 ## Install dependencies with npm or yarn (fs, yargs)
 NPM:
-```Bash
+```shell
 $ npm install
 ```
 YARN:
-```Bash
+```shell
 $ yarn
 ```
 
 ## Execute program
-```Bash
-  node json_to_csv.js --file={filename}
+```shell
+$ node json_to_csv.js --file={filename}
 ```
 
 ## JSON format is expected as follows
