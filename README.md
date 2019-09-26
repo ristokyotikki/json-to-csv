@@ -16,7 +16,7 @@ YARN: yarn
     "row_1": {
       "date": "11-07-2019",
       "amount": "1"
-    }
+    },
     "row_2": {
     "date": "12-07-2019",
     "amount": "95"
