@@ -1,4 +1,4 @@
-# CSV TO JSON
+# JSON to CSV
 
 ## Install dependencies (fs, yargs)
 * NPM: npm install
