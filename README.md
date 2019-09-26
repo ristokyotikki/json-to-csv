@@ -1,8 +1,14 @@
 # JSON to CSV
 
-## Install dependencies (fs, yargs)
-NPM: npm install
-YARN: yarn
+## Install dependencies with npm or yarn (fs, yargs)
+NPM:
+```Bash
+$ npm install
+```
+YARN:
+```Bash
+$ yarn
+```
 
 ## Execute program
 ```Bash
