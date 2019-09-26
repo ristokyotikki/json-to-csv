@@ -2,10 +2,10 @@
 
 ## Install dependencies with npm or yarn (fs, yargs)
 ```console
-npm install
+yarn
 ```
 ```console
-yarn
+npm install
 ```
 
 ## Execute program
