@@ -29,11 +29,11 @@ npm run convert -- --file={filename}
     "row_2": {
     "date": "12-07-2019",
     "amount": "95"
-    },
+    }
   },
   "file_dump_2": { 
     "row_1": {
-      "column_1": "value",
+      "column_1": "value"
     }
   }
 }
