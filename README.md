@@ -12,7 +12,10 @@ yarn
 
 ## Execute program
 ```console
-node json_to_csv.js --file={filename}
+yarn convert --file={filename}
+```
+```console
+npm run convert -- --file={filename}
 ```
 
 ## JSON format is expected as follows
