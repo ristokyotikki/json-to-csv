@@ -1,11 +1,9 @@
 # JSON to CSV
 
 ## Install dependencies with npm or yarn (fs, yargs)
-NPM:
 ```console
 npm install
 ```
-YARN:
 ```console
 yarn
 ```
