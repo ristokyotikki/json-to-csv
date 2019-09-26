@@ -31,8 +31,7 @@ YARN: yarn
 ```
 ## Expected output
 ### Keys from the .json-file will each create a new .csv-file of the same name.
-file_dump_1.csv
-file_dump_2.csv
+file_dump_1.csv, file_dump_2.csv
 
 ### Keys from the file_dump will be used to generate column keys for the output .csv-file
 file_dump_1.csv:
